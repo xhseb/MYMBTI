@@ -1,0 +1,45 @@
+#result{
+	display: none;
+	background-color: whitesmoke;
+	width: 80%;
+	text-align: center;
+	border-radius: 20px;
+}
+
+#shareResult{
+	background-color: whitesmoke;
+	width: 80%;
+	text-align: center;
+	border-radius: 20px;
+}
+
+.resultname{
+	font-size: 20px;
+	width: 90%;
+}
+
+.resultDesc {
+	font-size: 15px;
+	font-family: 'Do Hyeon', sans-serif;
+	width: 90%;
+}
+
+.kakao {
+	border-radius: 10px;
+	color: black;
+}
+
+.kakao:hover, .kakao:focus {
+	background-color: khaki;
+	color: whitesmoke;
+}
+
+.gohome {
+	border-radius: 10px;
+	color: black;
+}
+
+.gohome:hover, .gohome:focus {
+	background-color: khaki;
+	color: whitesmoke;
+}
