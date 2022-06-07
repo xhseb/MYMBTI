@@ -1,4 +1,4 @@
-const url = 'https://twelvelovetype.netlify.app/';
+const url = 'https://creative-pika-49247f.netlify.app/';
 
 function setShare(){
   var resultImg = document.querySelector('#resultImg');
@@ -7,6 +7,7 @@ function setShare(){
   const shareDes = infoList[resultAlt].name;
   const shareImage = url + 'img/image-' + resultAlt + '.png';
   const shareURL = url + 'page/result-' + resultAlt + '.html';
+  console.log(shareURL);
 
   Kakao.Link.sendDefault({
     objectType: 'feed',
@@ -16,7 +17,7 @@ function setShare(){
       imageUrl: shareImage,
       link: {
         mobileWebUrl: shareURL,
-        webUrl: shareURL
+        webUrl: shareURL,
       },
     },
 
@@ -25,10 +26,10 @@ function setShare(){
         title: '결과확인하기',
         link: {
           mobileWebUrl: shareURL,
-          webUrl: shareURL
+          webUrl: shareURL,
         },
       },
-    ]
+    ],
   });
 }
 
